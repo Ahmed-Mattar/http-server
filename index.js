@@ -32,7 +32,7 @@ server.on('request', (req, res) => {
             friends.push(JSON.parse(friend));
         });
         req.pipe(res);
-
+        // by using pipe the res will end when the req ends
     } else if (req.method === 'GET' && items[1] === 'friends') {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'application/json');
