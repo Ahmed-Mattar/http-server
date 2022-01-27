@@ -1,5 +1,5 @@
 <div align="center">
-  <h3 align="center">Planets Project</h3>
+  <h3 align="center">http-server Project</h3>
   <br/>
 </div>
 
